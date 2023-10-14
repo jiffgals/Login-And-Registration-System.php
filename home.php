@@ -14,7 +14,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
     <h1>Hello, <?php echo $_SESSION['name']; ?></h1> 
     <div class="welcome">Welcome to JN GS!</div>
 
-    <a href="main.php">Enter Main</a> <br/> <a href="logout.php">Logout</a>
+    <a href="main.php" target="_blank">Enter Main</a> <br/> <a href="logout.php">Logout</a>
 
 </body>
 </html>
